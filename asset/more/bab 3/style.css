@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(images/bg.jpg)no-repeat;
+  background-color: rgba(48, 48, 48, 0.9);
+  background-size: cover;
+  background-position: center;
+}
+
+header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gambar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 60px;
+}
+
+.content{
+  max-width: 650px;
+  margin: 60px 100px;
+}
+.info{
+    padding-top: 0px;
+}
+.strukturorg .abstrak{
+  margin-top: 200px;
+  z-index: 1;
+  margin-left: 80px;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+}
+.infoo img{
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 765px;
+  height: 700px;
+  width: 400px;
+}
+.strukturorg .gambar1{
+  position: absolute;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 550px;
+  height: 450px;
+  width: 800px;
+}
+.textt .gambar2{
+  position: absolute;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 550px;
+  height: 450px;
+  width: 800px;
+}
+.infoo .gambar3{
+  position: absolute;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 550px;
+  height: 450px;
+  width: 800px;
+}
+.hkir .gambar4{
+  position: absolute;
+  margin-top: 20px;
+  z-index: 1;
+  margin-left: 550px;
+  height: 450px;
+  width: 800px;
+}
+.shapee{
+  margin-top: -200px;
+  z-index: 1;
+  margin-left: -90px;
+  height: 500px;
+  width: 500px;
+}
+.infoo .arrow{
+  margin-top: 70px;
+  z-index: 1;
+  margin-left: 1575px;
+  position: absolute;
+  height: 400px;
+  width: 300px;
+}
+.content .info h2{
+  color: #ffffff;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.strukturorg p{
+  margin-top: 20px;
+  margin-left: 110px;
+  font-size: 28px;
+  font-weight: 500;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color: #000000;
+}
+.content .info h1{
+  color: #ffffff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.content .info h2 span{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.content .info p{
+  font-size: 28px;
+  font-weight: 500;
+  margin-right: -850px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.textt h1{
+  color: #000000;
+  margin: 65px;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.textt p{
+  margin-top: 20px;
+  margin-left: 110px;
+  font-size: 28px;
+  font-weight: 500;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color: #000000;
+}
+.infoo p{
+  position: relative;
+    margin-top: 500px;
+    margin-left: 110px;
+    font-size: 28px;
+    font-weight: 500;
+    margin-right: 110px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+.hkir p{
+  position: relative;
+  margin-top: 510px;
+  margin-left: 110px;
+  font-size: 28px;
+  font-weight: 500;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  color: #000000;
+}
+.btnn .info-btnn{
+  margin: 15px;
+  color: #fff;
+  background: #226A80;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btnn .info-btnn:hover{
+  background: #0C4F60;
+}
+.infoo h2{
+  text-align: center;
+  color: #000000;
+  margin: 60px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.info-btn{
+  position: absolute;
+  margin: -45px;
+  margin-top: 150px;
+  color: #fff;
+  background: #226A80;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.info-btn:hover{
+  background: #0C4F60;
+}
+
+label{
+  display: none;
+}
+
+#check{
+  z-index: 3;
+  display: none;
+}
+
+/* Responsive styles */
+
+@media (max-width: 960px){
+  header .navigation{
+    display: none;
+  }
+
+  label{
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: color;
+  }
+
+  label:hover{
+    color: #fff;
+  }
+
+  label .close-btn{
+    display: none;
+  }
+
+  #check:checked ~ header .navigation{
+    z-index: 2;
+    position: fixed;
+    background: rgba(114, 223, 255, 0.9);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #check:checked ~ header .navigation a{
+    font-weight: 700;
+    margin-right: 0;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+  }
+
+  #check:checked ~ header label .menu-btn{
+    display: none;
+  }
+
+  #check:checked ~ header label .close-btn{
+    z-index: 2;
+    display: block;
+    position: fixed;
+  }
+
+  label .menu-btn{
+    position: absolute;
+  }
+
+  header .logo{
+    position: absolute;
+    bottom: -6px;
+  }
+
+  .content .info h2{
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .content .info h2 span{
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .content .info p{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 560px){
+  .content .info h2{
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .content .info h2 span{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .content .info p{
+    font-size: 14px;
+  }
+}
+      
